@@ -1,4 +1,4 @@
-<code>
+```
 
 (function ($, window, undefined) {
 
@@ -73,4 +73,4 @@
 
 })(jQuery, window);
 
-</code>
+```
