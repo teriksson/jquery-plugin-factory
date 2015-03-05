@@ -1,3 +1,5 @@
+<code>
+
 (function ($, window, undefined) {
 
   // Create the plugin
@@ -70,3 +72,5 @@
   $('[data-fancy-accordion]').fancyAccordion('collapseToggle');
 
 })(jQuery, window);
+
+</code>
