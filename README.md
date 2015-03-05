@@ -4,16 +4,23 @@
 
   // Create the plugin
 	$.pluginFactory(
+    // plugin name
 		'FancyAccordion',
-		{
+
+    // default options
+    {
 			triggerSelector: '.fancy-accordion-trigger',
 			collapseSelector: '.fancy-accordion-collapse',
 			toggleSpeed: 200
 		},
+
+    // constructor
 		function (_self) {
 			_self.$out = $();
 			_self.init();
 		},
+
+    // methods
 		{
 			init: function(){
 				var _self = this;
