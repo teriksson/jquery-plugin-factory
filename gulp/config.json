@@ -1,0 +1,5 @@
+{
+    "packageName": "plugin-factory",
+    "srcPath": "./src/",
+    "distPath": "./dist/"
+}

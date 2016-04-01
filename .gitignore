@@ -1,0 +1,7 @@
+# Ignore phpstorm project space settings
+.idea
+
+# Ignore node modules
+node_modules
+
+.DS_Store
